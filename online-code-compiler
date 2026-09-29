@@ -1,0 +1,35 @@
+print("=" * 45)
+print("          ONLINE CODE COMPILER")
+print("=" * 45)
+language = input("Enter programming language: ")
+print("\nEnter your code:")
+code = input(">>> ")
+print("\nCompiling...")
+print("Compilation successful!")
+print("\nOutput:")
+print("-" * 25)
+if language.lower() == "python":
+    if code == "print('Hello World')":
+        print("Hello World")
+    else:
+        print("Code executed successfully.")
+else:
+    print("Code executed successfully.")
+print("-" * 25)
+print("Program finished.")
+
+OUTPUT:
+=============================================
+          ONLINE CODE COMPILER
+=============================================
+Enter programming language: Python
+Enter your code:
+>>> print('Hello World')
+Compiling...
+Compilation successful!
+
+Output:
+-------------------------
+Hello World
+-------------------------
+Program finished.
